@@ -6,11 +6,12 @@ python main.py \
     --model_name ARG \
     --language en \
     --root_path /path/to/en-data \
-    --bert_path /path/to/bert-base-uncased \
+    --bert_path '/mnt/c/Users/micha/BERT/bert-base-uncased' \
     --data_name en-arg \
     --data_type rationale \
     --rationale_usefulness_evaluator_weight 1.5 \
     --llm_judgment_predictor_weight 1.0
+
 
 # # ARG-D
 # python main.py \
@@ -20,7 +21,7 @@ python main.py \
 #     --model_name ARG-D \
 #     --language en \
 #     --root_path /path/to/en-data \
-#     --bert_path /path/to/bert-base-uncased \
+#     --bert_path '/mnt/c/Users/micha/BERT/bert-base-uncased' \
 #     --data_name en-argd \
 #     --data_type rationale \
 #     --rationale_usefulness_evaluator_weight 1.5 \

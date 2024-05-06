@@ -1,4 +1,5 @@
 import os
+import distutils
 import argparse
 import json
 from utils.utils import get_tensorboard_writer
@@ -22,7 +23,7 @@ parser.add_argument('--param_log_dir', type=str, default = './logs/param')
 
 # extra parameter
 parser.add_argument('--tensorboard_dir', type=str, default='./logs/tensorlog')
-parser.add_argument('--bert_path', type=str, default = '/path/to/bert-base-uncased')
+parser.add_argument('--bert_path', type=str, default='/mnt/c/Users/micha/BERT/bert-base-uncased')
 parser.add_argument('--data_type', type=str, default = 'rationale')
 parser.add_argument('--data_name', type=str)
 parser.add_argument('--eval_mode', type=bool, default = False)

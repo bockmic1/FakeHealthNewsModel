@@ -10,7 +10,7 @@ The experimental datasets where can be seen in `data` folder. Note that you can 
 
 ### Requirements
 
-- python==3.10.13
+-  
 
 - CUDA: 11.3
 
