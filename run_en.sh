@@ -1,12 +1,12 @@
 # ARG
-python main.py \
+python3 main.py \
     --seed 3759 \
-    --gpu 1 \
+    --gpu 0 \
     --lr 5e-5 \
     --model_name ARG \
     --language en \
-    --root_path /path/to/en-data \
-    --bert_path '/mnt/c/Users/micha/BERT/bert-base-uncased' \
+    --root_path '/mnt/c/Users/micha/Documents/ARG/ARG/data' \
+    --bert_path '/mnt/c/Users/micha/Documents/Bert/un/bert-base-uncased' \
     --data_name en-arg \
     --data_type rationale \
     --rationale_usefulness_evaluator_weight 1.5 \
@@ -14,7 +14,7 @@ python main.py \
 
 
 # # ARG-D
-# python main.py \
+# python3 main.py \
 #     --seed 3759 \
 #     --gpu 1 \
 #     --lr 5e-5 \
