@@ -5,3 +5,6 @@ logs/*
 param_model/*
 run_zh_local.sh
 run_en_local.sh
+ARG/bin/
+ARG/lib64/
+ARG/myenv/
